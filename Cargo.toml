@@ -17,6 +17,7 @@ path = "src/bin.rs"
 clap = { version = "4.0.22", features = ["derive"] }
 criterion = "0.4.0"
 nom = "7.1.1"
+regex = "1.10.2"
 
 [[bench]]
 name = "all_days"
